@@ -1,68 +1,35 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>YouTube</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTbube Clone</title>
 
-    <style>
-
-
-        .video-img {
-            width: 300px;
-            box-sizing: border-box;
-        }
-
-        .video-cantent {
-            width: 300px;
-            font-size: 15px;
-            font-family: Arial;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
-
-        .video-author {
-            font-family: Arial;
-            font-size: 15px;
-            color: rgb(97, 97, 93);
-            margin-bottom: 0;
-        }
-
-        .video-stats {
-            font-family: Arial;
-            font-size: 15px;
-            color: rgb(97, 97, 93);
-            margin-bottom: 0;
-        }
-
-
-        .video-box {
-            display: inline-block;
-            margin-right: 10px;
-            vertical-align: top;
-        }
-    </style>
-
+    <link rel="stylesheet" href="styles/video.css">
 </head>
-
 <body>
-    
-    <div class="video-box">
-        <img class="video-img" src="thumbnail-1.webp" alt="suwret">
-        <p class="video-cantent">
-            Talking Tech and AI with Google CEO Sundar Pichail
-        </p>
-        <p class="video-author">Marques Brownlee</p>
-        <p class="video-stats">3.4M Views <!--*--> 6 months age</p>
-    </div>
 
-    <div class="video-box">
-        <img class="video-img" src="thumbnail-1.webp" alt="suwret">
-        <p class="video-cantent">
-            Talking Tech and AI with Google CEO Sundar Pichail
-        </p>
-        <p class="video-author">Marques Brownlee</p>
-        <p class="video-stats">3.4M Views <!--*--> 6 months age</p>
+    <!-- 1-video box -->
+    <div class="box">
+        <div>
+            <img src="thumnail-photos/thumbnail-1.webp" alt="thumbnail-1" class="thumbnail">
+        </div>
+        <div class="video-info">
+            <div class="channel-photo-box">
+                <img src="channel-photos/channel-1.jpeg" alt="channel-1" class="channel-photo">
+            </div>
+            <div class="video-info-box">
+                <div>
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                </div>
+                <div>
+                    <p class="channel-author">Marques Brownlee</p>
+                </div>
+                <div>
+                    <p class="video-stat">3.4M views • 6 months ago</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
-
 </html>
