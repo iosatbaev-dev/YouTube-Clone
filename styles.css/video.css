@@ -1,5 +1,5 @@
 .thumbnail{
-    width: 400px;
+    width: 100%;
 }
 
 .channel-photo{
@@ -30,3 +30,9 @@
     grid-template-columns: 50px 1fr;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+}
